@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Dauphin', arial;
+    font-weight: 700;
+    font-size: 70px;
+    margin: 15px;
+}
+
+h2 {
+    font-family: 'Dauphin', arial;
+}
+
+h4 {
+    font-family: 'Dauphin', arial;
+    font-weight: 200;
+    margin: 10px 10px 5px 10px;
+}
+
+h5 {
+    font-family: 'Dauphin', arial;
+    font-weight: 200;
+    margin: 10px 10px 5px 10px;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.col-1-of-2 {
+    float: left;
+    width: 49%;
+}
+
+.col-1-of-2:not(:last-child) {
+    margin-right: 20px;
+}
