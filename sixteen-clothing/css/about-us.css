@@ -24,6 +24,11 @@
     transition: all .5s;
 }
 
+.thumb-container:hover .hover-effect {
+    visibility: visible;
+    opacity: 1;
+}
+
 .hover-effect .list-social-media {
     position: absolute;
     top: 50%;
